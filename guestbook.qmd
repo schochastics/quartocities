@@ -1,0 +1,7 @@
+---
+page-title: "guestbook"
+toc: false
+---
+<!-- Create a guestbook at websitegoodies.com and change the id in the link below -->
+<iframe src="https://www.websitegoodies.com/guestbook.php?a=view&id=1739304"  height="900" width="100%">
+</iframe>

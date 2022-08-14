@@ -1,0 +1,454 @@
+/* inspired by https://code.divshot.com/geo-bootstrap/# */
+/* css styles */
+.navbar {
+    background: #000000 url('img/stars.gif') top left;
+    border-bottom: 5px solid #D4D0C8;
+}
+
+.navbar-title{
+    text-decoration: underline;
+}
+
+/* dropdown*/
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  background: black;
+}
+
+.navbar .dropdown-item {
+  padding: .4rem .5rem;
+  color: #0f0;
+}
+
+.navbar .dropdown-item:hover {
+  color: black;
+  background-color: #ff0;
+}
+
+/*sidebar*/
+#quarto-sidebar {
+  width: 100%;
+  padding-right: 1em;
+  color: #ff0;
+  background-image: url("img/stars.gif");
+}
+
+div.sidebar-item-container{
+  color:#ff0
+}
+
+div.sidebar-item-container:hover{
+  color: black;
+  background-color: #ff0;
+}
+
+div.sidebar-item-container a:hover{
+  color: black;
+  background-color: #ff0;
+}
+
+body {
+  background: #0000ff url('img/microfab.gif') top left;
+}
+  
+  /* headings*/
+  h1.title{
+    /* background-image: linear-gradient(to right, #FF0000,
+    #FF5A00,#FFB400,#FFff00,#A5ff00,#4Bff00,#00ff00,#00ff5A,#00ffB4,#00ffff,#00B4ff,#005Aff,#0000ff,#4B00ff,#A500ff,#FF00ff,#FF00B4);
+    */
+    background-image: linear-gradient(to right, red 14%,orange 28%,yellow 42%,green 56%,blue 70%,indigo 84%,violet);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* https://stackoverflow.com/a/40740791 */
+  h1.title::before{
+    content: "";
+    background-image:url("img/banana-dance.gif");
+    background-size: 100% 100%;
+    display: inline-block;
+  
+    /*size of your image*/
+    height: 2em;
+    width: 2em;
+  
+    /*if you want to change the position you can use margins or:*/
+    position:relative;
+    top:5px;
+  }
+
+
+  h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    color: #fc0;
+  }
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem;
+      color: #fc0;
+    }
+  }
+  
+  h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+    color: #f00;
+  }
+  @media (min-width: 1200px) {
+    h2, .h2 {
+      font-size: 2rem;
+      color: #f00;
+    }
+  }
+  
+  h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+    color: #ff0;
+  }
+  @media (min-width: 1200px) {
+    h3, .h3 {
+      font-size: 1.75rem;
+      color: #ff0;
+    }
+  }
+  
+  h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+    color: #6f0;
+  }
+  @media (min-width: 1200px) {
+    h4, .h4 {
+      font-size: 1.5rem;
+      color: #6f0;
+    }
+  }
+  
+  h5, .h5 {
+    font-size: 1.25rem;
+    color: #00f;
+  }
+  
+  h6, .h6 {
+    font-size: 1rem;
+    color: #f0f;
+  }
+
+  /* links */
+  a {
+    color: #0ee;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #0ee;
+  }
+  
+  a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* TOC */
+  #TOC{
+    background: transparent;
+    border: 0px ridge #bbb;  
+  }
+
+  .sidebar nav[role=doc-toc] ul>li>a.active{
+    background: #ff0;
+    color: black!important;
+    border: 1px solid #bbb;
+    text-decoration: underline;
+  }
+
+  .sidebar nav[role=doc-toc] ul>li>ul>li>a.active{
+    color: black!important;
+  }
+
+  .sidebar nav[role=doc-toc]>ul li a{
+    text-decoration: underline;
+    border: 1px solid #bbb;
+    background: black;
+  }
+
+  .sidebar nav[role=doc-toc] ul>li>a:hover{
+    background: #ff0;
+    color: black!important;
+    border: 1px solid #bbb;
+    text-decoration: underline;
+  }
+
+/* footer */
+.nav-footer {
+  background-color: transparent;
+  color: var(--body-color);
+}  
+
+.nav-footer a{
+  color: #0ee;
+}
+
+body:not(.floating) .nav-footer{
+  border-top: 0px;
+}
+
+/* panel tabset*/
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link{
+    color:white!important;
+    background-color: #00f;
+    border: 1px solid #ddd;
+    text-decoration: underline;
+}
+
+.nav-tabs .nav-link, 
+.nav-tabs .nav-item .nav-link{
+    color:#0ee;
+    text-decoration: underline;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:focus{
+    background: black;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-content{
+    border: 0px solid;
+}
+
+/* table */
+.page-columns .column-page-left table{
+    background: transparent;
+}
+
+.table>thead{
+    border-bottom: 2px solid #008000;
+}
+
+th,td{
+    border-left: 1px solid #008000;
+}
+tr.header{
+    background: transparent!important;
+}
+table, .table{
+    border: 1px solid #008000;
+    background: transparent;
+}
+
+
+tr:nth-child(odd) {
+    background: black;
+}
+tr:nth-child(even) {
+    background: transparent;
+}
+
+tr:hover{
+  background-color: #00f
+}
+
+/*buttons*/
+.btn{
+  color:white;
+  border: 6px ridge #bbb;  
+  text-decoration: underline;
+}
+
+.btn a{
+    color: white;
+}
+
+.btn-primary {
+    background: #000 url('img/rainbow.gif') top left;
+}
+
+.btn-secondary {
+    background: #e6e6e6;
+    color: black;
+}
+
+.btn-success{
+    background-color: #0f0;
+}
+
+.btn-info{
+    background-color: #0ff;
+}
+
+.btn-warning{
+    background-color: #fa0;
+}
+
+.btn-danger{
+    background-color: #f00;
+}
+
+.btn-light{
+    background-color: white;
+    color: #333333;
+}
+
+/*callout boxes*/
+div.callout-note.callout-style-default>.callout-header,
+div.callout-warning.callout-style-default>.callout-header,
+div.callout-tip.callout-style-default>.callout-header,
+div.callout-caution.callout-style-default>.callout-header,
+div.callout-important.callout-style-default>.callout-header{
+    background-color: transparent;
+}
+div.callout-note.callout-captioned .callout-icon::before{
+    background-image: url("img/info.gif");
+}
+
+div.callout-warning.callout-captioned .callout-icon::before{
+    background-image: url("img/drudgesiren.gif");
+}
+
+div.callout-tip.callout-captioned .callout-icon::before{
+    background-image: url("img/bulb.gif");
+}
+
+div.callout-important.callout-captioned .callout-icon::before{
+    background-image: url("img/exclamation.gif");
+}
+
+div.callout-caution.callout-captioned .callout-icon::before{
+    background-image: url("img/danger.gif");
+}
+
+div.callout-warning.callout{
+    background-color: #ff0;
+    border: 1px solid #f00;
+    color: black;
+}
+
+div.callout-tip.callout{
+    background-color: #008000;
+    border: 1px solid #0a0;
+}
+
+div.callout-caution.callout{
+    background-color: #0ff;
+    border: 1px solid #00f;
+    color:black;
+}
+
+div.callout-important.callout{
+    background-color: #f00;
+    border: 1px solid orange;
+}
+
+div.callout-note.callout{
+    background-color: #00f;
+    border: 1px solid #0ff;
+}
+
+
+/*inline code*/
+p code:not(.sourceCode), li code:not(.sourceCode){
+    background-color: black;
+    padding: 0.1em;
+}
+
+code {
+    font-size: 0.875em;
+    color: #E97DFD;
+    background-color: #3b3b31;
+    border-radius: .25rem;
+    padding: .125rem .25rem;
+    word-wrap: break-word;
+}
+
+/* code blocks*/
+div.sourceCode {
+  /* background-color: #00f; */
+  border: 1px solid rgba(233,236,239,.65);
+}
+
+div.cell-output pre code {
+  background-color: black;
+  color:#0f0;
+  font-size: inherit;
+  word-break: normal;
+  /* background-image: url("img/spacebg.gif"); */
+}
+
+/* extra classes*/
+  .well{
+    background: #000000 url('img/stars.gif') top left;
+  }
+
+
+  .blockquote, blockquote {
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+    border-left: 5px solid #eee;
+    color: var(--quarto-body-color);
+ }
+
+ .block-title{
+    font-size: 0.75em;
+    color:#999;
+ }
+
+ .block-title:before{
+    content:'\2014 \00A0';
+ }
+ 
+ .block-right blockquote {
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 0;
+    border-right: 5px solid #eee;
+    border-left: 0;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+/* blink text (from wikipedia)*/
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+/*marquee*/
+/* https://stackoverflow.com/a/53632585 */
+.holder {
+    padding:0.5rem;
+    overflow: hidden;
+  }
+  .news {
+    animation : slide 10s linear infinite;
+    
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translatex(0%)
+    }
+  
+    100% {
+      transform: translatex(100%)
+    }
+  }
+
+ 

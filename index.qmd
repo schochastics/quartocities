@@ -1,0 +1,143 @@
+---
+page-title: "Geocities for Quarto"
+title: "Quartocities: Geocities for Quarto"
+---
+
+:::{.holder}
+:::{.news}
+To get started clone schochastics/quartocities and go wild
+:::
+:::
+
+## Typography
+
+::: {.grid}
+
+::: {.g-col-4 .well}
+# h1. heading
+## h2. heading
+### h3. heading
+#### h4. heading
+##### h5. heading
+###### h6. heading
+:::
+
+::: {.g-col-4}
+### Example body text
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+:::
+
+::: {.g-col-4}
+### Example Addresses
+![](img/spinningearth.gif) **Gary's Shoes**
+ 9764 Jeopardy Lane, Chicago, Illinois
+
+[![](img/emailme.gif) first.last@yahoo.com](mailto:#)
+:::
+
+:::
+
+::: {.grid}
+::: {.g-col-6}
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
+[Someone famous in Source Title]{.block-title}
+:::
+
+::: {.g-col-6}
+:::{.block-right}
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
+[Someone famous in Source Title]{.block-title}
+:::
+:::
+:::
+
+{{< hammer3 >}}
+
+## Buttons
+
+{{< btn primary Primary >}}
+{{< btn secondary Secondary >}}
+{{< btn success Success >}}
+{{< btn info Info >}}
+{{< btn warning Warning >}}
+{{< btn danger Danger >}}
+{{< btn light Light >}}
+{{< btn dark Dark >}}
+
+{{< btn primary Home link=. >}}
+
+{{< hammer3 >}}
+
+
+## ![](img/hot.gif) Table
+
+![](img/construction.gif) 
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+| Paragraph   | Text        | And more      |
+
+## ![](img/new.gif)Miscellaneous
+
+### Panel-tabset
+
+:::{.panel-tabset}
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+### Tab C
+
+Content for `Tab C`
+:::
+
+### Callout Boxes
+
+:::{.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+:::{.callout-warning}
+Callouts provide a simple way to attract attention, for example, to this warning.
+:::
+
+:::{.callout-important}
+Danger, callouts will really improve your writing.
+:::
+
+:::{.callout-tip}
+## Tip With Caption
+This is an example of a callout with a caption.
+:::
+
+:::{.callout-caution  collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+### Fun with text
+
+[blink blink]{.blink_me}  
+[Rainbowtext is fun]{.multicolortext}
+
+## Code
+
+
+```{r test}
+#| eval: true
+#| echo: true
+#| message: false
+library(igraph)
+g <- sample_gnp(n =100, p = 0.1)
+deg <- degree(g)
+deg
+```
+

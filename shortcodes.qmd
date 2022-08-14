@@ -1,0 +1,27 @@
+---
+title: shortcodes
+---
+
+## socials
+`{{{< twitter schochastics >}}}`
+{{< twitter schochastics >}}
+
+`{{{< github schochastics >}}}`
+{{< github schochastics >}}
+
+## Gif shortcodes
+`{{{< hammer3 >}}}`
+{{< hammer3 >}}
+
+## Divider shortcodes
+`{{{< divider 1 >}}}`
+{{< divider 1 >}}
+
+`{{{< divider 2 >}}}`
+{{< divider 2 >}}
+
+`{{{< divider 3 >}}}`
+{{< divider 3 >}}
+
+`{{{< divider 4 >}}}`
+{{< divider 4 >}}

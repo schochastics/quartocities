@@ -1,0 +1,17 @@
+---
+page-title: "About"
+toc: false
+construction: true
+---
+
+## Why????
+
+![](img/hot.gif) Because webdesign peaked in the late 90s/early 2000s! ![](img/hot.gif)  
+Also, I wanted to get a better understanding of some of the internals of quarto webpages. 
+Then I found a [geocities theme for bootstrap 2](https://code.divshot.com/geo-bootstrap/#)
+which I used as inspiriation. Aaaaaaand that is how we ended up in this weird place.
+
+
+## How?
+
+Just clone the repo `schochastics/quartocities` and adapt at will. 

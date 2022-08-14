@@ -1,0 +1,45 @@
+project:
+  type: website
+shortcodes:
+  - geo_shortcodes.lua
+filters:
+  - geo_filters.lua
+website:
+  title: "Quartocities"
+  navbar:
+    logo: "img/computer-01.gif"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: about
+      - text: "more"
+        menu:
+        - href: gifs.qmd
+          text: gifs
+        - href: shortcodes.qmd
+          text: shortcodes
+        - href: filters.qmd
+          text: filters
+    right:
+      - href: guestbook.qmd
+        text: Guestbook
+  page-footer:
+    left: <img src="img/geocities.jpg">
+    center: <img src="img/counter2.gif"> 
+    right: <img src="img/hacker.gif"> powered by [quarto](https://quarto.org)
+
+
+format:
+  html:
+    theme: geo.scss
+    css: styles.css
+    toc: true
+    toc-location: right
+    page-layout: full
+    anchor-sections: true
+    fontcolor: "#ffff00"
+
+
+
+
