@@ -14,4 +14,4 @@ which I used as an inspiriation. Aaaaaaand that is how we ended up in this weird
 
 ## How?
 
-Just clone the repo `schochastics/quartocities` and adapt at will. 
+Just clone/fort the repo [schochastics/quartocities](https://github.com/schochastics/quartocities) and adapt at will. 
