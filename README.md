@@ -8,13 +8,14 @@ This repository brings the beauty of
 Style your personal page as if it was the late 90's/early 2000's and go wild
 with all those pretty gifs!
 
+
+
 ## Usage
 
 simple clone/fork this repository and adapt at will. 
 Most style aspects can be changed in `styles.css` and `geo.scss`. 
 
-You can also check out the [demo]() for some inspiration. 
-
+You can also check out the [demo]() for some inspiration
 ## Custom Shortcodes
 
 ### socials
@@ -59,3 +60,10 @@ set globally in `_quarto.yml` or locally in a file. default is to not display a
 gif. The gif needs to be present in the `img/` folder (dont use the file ending,
 ie `title_gif: banana-dance`). If you set a global gif you can unset it for
 specific pages via `title-gif:none`.
+
+### Material
+
+- Parts of this repo are a port of the geocities theme for [bootstrap2](https://code.divshot.com/geo-bootstrap/)
+- Browse one of the [geocities archives](https://geocities.restorativland.org/)
+  for more inspiration
+- Search for your favorite gifs at [gifcities](https://gifcities.org/)
