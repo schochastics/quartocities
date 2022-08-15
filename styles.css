@@ -381,6 +381,20 @@ div.cell-output pre code {
   /* background-image: url("img/spacebg.gif"); */
 }
 
+/*search box*/
+.aa-Autocomplete .aa-Form, .aa-DetachedFormContainer .aa-Form {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  /* border-radius: .25rem; */
+  color: #0ee;
+  display: flex;
+  line-height: 1em;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
 /* extra classes*/
   .well{
     background: #000000 url('img/stars.gif') top left;

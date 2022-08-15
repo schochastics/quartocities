@@ -5,6 +5,8 @@ shortcodes:
 filters:
   - geo_filters.lua
 website:
+  search:
+    type: textbox
   title: "Quartocities"
   navbar:
     logo: "img/computer-01.gif"
@@ -24,6 +26,10 @@ website:
     right:
       - href: guestbook.qmd
         text: Guestbook
+      - href: https://twitter.com/schochastics
+        text: "![](img/twitter.gif){ width=50% }"
+      - href: https://github.com/schochastics
+        text: "![](img/hacker.gif){ width=50% }"
   page-footer:
     left: <img src="img/geocities.jpg">
     center: <img src="img/counter2.gif"> 
