@@ -5,7 +5,7 @@ toc: false
 
 ### Page under construction
 
-add `construction: true` to the yaml header of a page and a random (1 of 5)
+add `construction: true` to the yaml header of a page and a random (1 of 6)
 "under construction" gifs is inserted on top of the page
 
 {{< divider 2 >}}
@@ -38,4 +38,4 @@ In the same way, the background of the navbar can be changed with `nav_bg`. Here
 ### title gif
 
 Add a gif to the title of a page using the yaml parameter `title_gif`. Can be set globally in `_quarto.yml` or locally in a file. default is to not display a gif. 
-The gif needs to be present in the `img/` folder (dont use the file ending, ie `title_gif: banana-dance`)
+The gif needs to be present in the `img/` folder (dont use the file ending, ie `title_gif: banana-dance`). If you set a global gif you can unset it for specific pages via `title-gif:none`.
