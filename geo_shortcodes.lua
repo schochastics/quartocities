@@ -25,7 +25,7 @@ end
 
 function divider(args)
     local type_str = pandoc.utils.stringify(args[1])
-    local divider = '<img src="img/divider' .. type_str ..'.gif" width=100%>'
+    local divider = '<img src="img/divider/divider' .. type_str ..'.gif" width=100% style="margin-bottom:1em;margin-top:1em">'
     return pandoc.RawBlock('html', divider)
 end
 

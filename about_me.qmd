@@ -1,0 +1,13 @@
+---
+title: David Schoch
+title_gif: none
+body_bg: matrix
+about:
+  image: img/banana-dance.gif
+  template: jolla
+  links:
+    - text: <img src="img/twitter.gif"> twitter
+      href: https://twitter.com/schochastics
+    - text: <img src="img/hacker.gif"> Github
+      href: https://github.com/schochastics
+---

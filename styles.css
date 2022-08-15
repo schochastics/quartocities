@@ -1,8 +1,8 @@
 /* inspired by https://code.divshot.com/geo-bootstrap/# */
 /* css styles */
 .navbar {
-    background: #000000 url('img/stars.gif') top left;
-    border-bottom: 5px solid #D4D0C8;
+    /* background: #000000 url('img/bg/stars.gif') top left; */
+    border-bottom: 5px ridge #D4D0C8;
 }
 
 .navbar-title{
@@ -30,7 +30,7 @@
   width: 100%;
   padding-right: 1em;
   color: #ff0;
-  background-image: url("img/stars.gif");
+  background-image: url("img/bg/stars.gif");
 }
 
 div.sidebar-item-container{
@@ -47,9 +47,7 @@ div.sidebar-item-container a:hover{
   background-color: #ff0;
 }
 
-body {
-  background: #0000ff url('img/microfab.gif') top left;
-}
+
   
   /* headings*/
   h1.title{
@@ -66,17 +64,22 @@ body {
   /* https://stackoverflow.com/a/40740791 */
   h1.title::before{
     content: "";
-    background-image:url("img/banana-dance.gif");
+    /* background-image:url("img/banana-dance.gif"); */
     background-size: 100% 100%;
     display: inline-block;
   
     /*size of your image*/
-    height: 2em;
-    width: 2em;
-  
+    /* height: 2em; */
+    /* width: 2em; */
+ 
     /*if you want to change the position you can use margins or:*/
     position:relative;
     top:5px;
+  }
+
+  h2, .h2 {
+    border-bottom: 3px ridge #ddd;
+    padding-bottom: .5rem;
   }
 
 
@@ -381,6 +384,18 @@ div.cell-output pre code {
   /* background-image: url("img/spacebg.gif"); */
 }
 
+/* anchor link*/
+[data-anchorjs-icon]::after {
+  content: '';
+  background-image:url("img/link.gif");
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    position:relative;
+    top:5px;
+}
+
 /*search box*/
 .aa-Autocomplete .aa-Form, .aa-DetachedFormContainer .aa-Form {
   align-items: center;
@@ -397,7 +412,7 @@ div.cell-output pre code {
 
 /* extra classes*/
   .well{
-    background: #000000 url('img/stars.gif') top left;
+    background: #000000 url('img/bg/stars.gif') top left;
   }
 
 

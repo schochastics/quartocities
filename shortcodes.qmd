@@ -25,3 +25,18 @@ title: shortcodes
 
 `{{{< divider 4 >}}}`
 {{< divider 4 >}}
+
+`{{{< divider 5 >}}}`
+{{< divider 5 >}}
+
+`{{{< divider 6 >}}}`
+{{< divider 6 >}}
+
+`{{{< divider 7 >}}}`
+{{< divider 7 >}}
+
+`{{{< divider 8 >}}}`
+{{< divider 8 >}}
+
+`{{{< divider 9 >}}}`
+{{< divider 9 >}}

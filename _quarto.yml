@@ -4,6 +4,7 @@ shortcodes:
   - geo_shortcodes.lua
 filters:
   - geo_filters.lua
+title_gif: "banana-dance"
 website:
   search:
     type: textbox
@@ -24,8 +25,10 @@ website:
         - href: filters.qmd
           text: filters
     right:
+      - href: about_me.qmd
+        text: author
       - href: guestbook.qmd
-        text: Guestbook
+        text: guestbook
       - href: https://twitter.com/schochastics
         text: "![](img/twitter.gif){ width=50% }"
       - href: https://github.com/schochastics

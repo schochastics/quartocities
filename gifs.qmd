@@ -6,13 +6,13 @@ toc: false
 The `img` folder includes the following gifs to play with
 
 ```{r gifs}
-list.files("img")
+list.files("img",pattern = "gif")
 ```
 
 ```{r show_gifs}
 #| output: asis
 #| echo: false
-gifs <- list.files("img")
+gifs <- list.files("img",recursive = FALSE,pattern = "gif")
 for(f in gifs){
 cat("![](img/",f,")",sep="")
 }

@@ -10,3 +10,32 @@ add `construction: true` to the yaml header of a page and a random (1 of 5)
 
 {{< divider 2 >}}
 
+### Backgrounds
+
+change the background of the html body using the yaml parameter `body_bg`. Can be set globally in `_quarto.yml` or locally in a file. The default is `microfab`.
+other options are shown below (dont use the file ending, ie `body_bg: space`).
+
+
+```{r bg-options}
+fl <- list.files("img/bg")
+fl
+```
+
+
+```{r bg-options-show}
+#| output: asis
+#| echo: false
+gifs <- list.files("img/bg")
+for(f in gifs){
+cat("![",f,"](img/bg/",f,")",sep="")
+}
+```
+
+In the same way, the background of the navbar can be changed with `nav_bg`. Here the default is `stars`.
+
+{{< divider 2 >}}
+
+### title gif
+
+Add a gif to the title of a page using the yaml parameter `title_gif`. Can be set globally in `_quarto.yml` or locally in a file. default is to not display a gif. 
+The gif needs to be present in the `img/` folder (dont use the file ending, ie `title_gif: banana-dance`)
