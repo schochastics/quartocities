@@ -396,6 +396,12 @@ div.cell-output pre code {
     top:5px;
 }
 
+/* copy code */
+pre.sourceCode:hover>.code-copy-button:hover>.bi::before, 
+pre.sourceCode:hover>.code-copy-button>.bi::before{
+  background-image: url('img/save.gif');
+}
+
 /*search box*/
 .aa-Autocomplete .aa-Form, .aa-DetachedFormContainer .aa-Form {
   align-items: center;

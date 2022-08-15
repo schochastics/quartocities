@@ -40,8 +40,7 @@ horizontal divider gifs `(x=1...9)`
 ## Custom filters
 
 ### Under Construction
-add `construction: true` to the yaml header of a page and a random (1 of 6)
-"under construction" gifs is inserted on top of the page.
+add `construction: true` to the yaml header of a page and a random "under construction" gif is added at the top of the page
 
 ### Body backgrounds
 change the background of the html body using the yaml parameter `body_bg`. Can

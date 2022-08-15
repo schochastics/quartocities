@@ -40,3 +40,32 @@ title: shortcodes
 
 `{{{< divider 9 >}}}`
 {{< divider 9 >}}
+
+## Buttons
+
+`{{{< btn primary Primary >}}}`
+{{< btn primary Primary >}}
+
+`{{{< btn secondary Secondary >}}}`
+{{< btn secondary Secondary >}}
+
+`{{{< btn success Success >}}}`
+{{< btn success Success >}}
+
+`{{{< btn info Info >}}}`
+{{< btn info Info >}}
+
+`{{{< btn warning Warning >}}}`
+{{< btn warning Warning >}}
+
+`{{{< btn danger Danger >}}}`
+{{< btn danger Danger >}}
+
+`{{{< btn light Light >}}}`
+{{< btn light Light >}}
+
+`{{{< btn dark Dark >}}}`
+{{< btn dark Dark >}}
+
+`{{{< btn primary Home link=../ >}}}`
+{{< btn primary Home link=../ >}}

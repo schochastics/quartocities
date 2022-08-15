@@ -31,7 +31,7 @@ website:
         text: guestbook
       - href: https://twitter.com/schochastics
         text: "![](img/twitter.gif){ width=50% }"
-      - href: https://github.com/schochastics
+      - href: https://github.com/schochastics/quartocities
         text: "![](img/hacker.gif){ width=50% }"
   page-footer:
     left: <img src="img/geocities.jpg">
