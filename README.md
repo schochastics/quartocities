@@ -8,8 +8,12 @@ This repository brings the beauty of
 Style your personal page as if it was the late 90's/early 2000's and go wild
 with all those pretty gifs!
 
+![](img/hot.gif)![](img/hot.gif)![](img/hot.gif)![](img/hot.gif)![](img/hot.gif)  
 
+![](img/hot.gif)Check out the
+[demo](https://schochastics.quarto.pub/quartocities)  ![](img/hot.gif)  
 
+![](img/hot.gif)![](img/hot.gif)![](img/hot.gif)![](img/hot.gif)![](img/hot.gif)
 ## Usage
 
 simple clone/fork this repository and adapt at will. 
