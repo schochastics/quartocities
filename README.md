@@ -19,7 +19,6 @@ with all those pretty gifs!
 simple clone/fork this repository and adapt at will. 
 Most style aspects can be changed in `styles.css` and `geo.scss`. 
 
-You can also check out the [demo]() for some inspiration
 ## Custom Shortcodes
 
 ### socials
